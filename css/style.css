@@ -546,6 +546,7 @@ textarea.input {
   text-align: left;
   padding: .3125rem 1.875rem .3125rem 0;
   font-size: 1.875rem;
+  line-height: 140%;
   position: relative;
   list-style: none
 }
@@ -643,11 +644,6 @@ textarea.input {
   border-color: var(--acid-green);
   color: var(--white)
 }
-.button--empty-green .button__circle,
-.button-white--empty-green .button__circle {
-  background-color: var(--acid-green);
-  color: var(--dark-grey)
-}
 .button-white__circle,
 .button__circle {
   flex-shrink: 0;
@@ -688,7 +684,7 @@ textarea.input {
   color: var(--white)
 }
 .button-white .button__circle::before {
-  background-color: var(--dark-grey)
+  background-color: var(--acid-green)
 }
 .button-dark,
 .button-empty {
@@ -710,7 +706,7 @@ textarea.input {
   overflow: hidden;
   position: relative;
   z-index: 2;
-  transition: color .3s
+  transition: color .3s,border .3s
 }
 .button-dark::before,
 .button-empty::before {
@@ -729,6 +725,10 @@ textarea.input {
 .button-empty--white {
   border-color: var(--white);
   color: var(--white)
+}
+.button-dark--white::before,
+.button-empty--white::before {
+  background-color: var(--acid-green)
 }
 .button-dark {
   background-color: var(--dark-grey);
@@ -1113,6 +1113,9 @@ textarea.input {
 .services__link .button__circle {
   background-color: var(--acid-green)
 }
+.services__link .button__circle::before {
+  background-color: var(--acid-green)
+}
 .services__content {
   max-width: 51.25rem;
   width: 100%;
@@ -1377,7 +1380,8 @@ textarea.input {
 }
 .portfolio {
   padding-top: 3.5rem;
-  background-color: var(--black)
+  background-color: var(--black);
+  color: var(--white)
 }
 .portfolio__top {
   margin-bottom: 2.25rem
@@ -2004,16 +2008,7 @@ textarea.input {
     transform: translate(0,-50%) scale(20)
   }
   .button-white:hover {
-    color: var(--white);
     border-color: var(--dark-grey)
-  }
-  .button-white:hover .button__circle {
-    background-color: var(--white);
-    color: var(--dark-grey)
-  }
-  .button-white:hover .button__circle::before {
-    -webkit-transform: translate(0,-50%) scale(20);
-    transform: translate(0,-50%) scale(20)
   }
   .button-dark:hover,
   .button-empty:hover {
@@ -2022,6 +2017,11 @@ textarea.input {
   .button-dark:hover::before,
   .button-empty:hover::before {
     top: 0
+  }
+  .button-dark:hover.button-empty--white,
+  .button-empty:hover.button-empty--white {
+    color: var(--dark-grey);
+    border-color: var(--acid-green)
   }
   .button-dark:hover {
     color: var(--dark-grey)
