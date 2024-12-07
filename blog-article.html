@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<title>Article page</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header header--page-bg">
+			<div class="header__container">
+				<div class="header__body">
+					<a href="" class="header__logo">
+						<img src="img/logo.svg" alt="logo cybermedia">
+					</a>
+					<nav class="header__desktop-menu desktop-menu">
+						<ul class="desktop-menu__list">
+							<li class="desktop-menu__item">
+								<a href="#aboutus" class="desktop-menu__link">Про нас</a>
+							</li>
+							<li class="desktop-menu__item">
+								<a href="#services" class="desktop-menu__link">Послуги</a>
+							</li>
+							<li class="desktop-menu__item">
+								<a href="#portfolio" class="desktop-menu__link">Портфоліо</a>
+							</li>
+							<li class="desktop-menu__item">
+								<a href="#blog" class="desktop-menu__link">Блог</a>
+							</li>
+							<li class="desktop-menu__item">
+								<a href="#footer" class="desktop-menu__link">Контакти</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="header__social social-block">
+						<a href="" class="social-block__link">
+							<svg width="14" height="15" viewBox="0 0 14 15" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M4.25351 0.777344H9.35244C11.6988 0.777344 13.6016 2.6801 13.6016 5.02646V10.1254C13.6016 12.4717 11.6988 14.3745 9.35244 14.3745H4.25351C1.90715 14.3745 0.00439453 12.4717 0.00439453 10.1254V5.02646C0.00439453 2.6801 1.90715 0.777344 4.25351 0.777344ZM9.35231 13.0999C10.9925 13.0999 12.3267 11.7657 12.3267 10.1255V5.0266C12.3267 3.38645 10.9925 2.05222 9.35231 2.05222H4.25338C2.61322 2.05222 1.279 3.38645 1.279 5.0266V10.1255C1.279 11.7657 2.61322 13.0999 4.25338 13.0999H9.35231Z" />
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M3.40332 7.57605C3.40332 5.69879 4.92535 4.17676 6.80261 4.17676C8.67987 4.17676 10.2019 5.69879 10.2019 7.57605C10.2019 9.4533 8.67987 10.9753 6.80261 10.9753C4.92535 10.9753 3.40332 9.4533 3.40332 7.57605ZM4.67792 7.57619C4.67792 8.74725 5.63142 9.70075 6.80248 9.70075C7.97354 9.70075 8.92704 8.74725 8.92704 7.57619C8.92704 6.40429 7.97354 5.45164 6.80248 5.45164C5.63142 5.45164 4.67792 6.40429 4.67792 7.57619Z" />
+								<path d="M10.4569 4.37466C10.707 4.37466 10.9098 4.17187 10.9098 3.92171C10.9098 3.67155 10.707 3.46875 10.4569 3.46875C10.2067 3.46875 10.0039 3.67155 10.0039 3.92171C10.0039 4.17187 10.2067 4.37466 10.4569 4.37466Z" />
+							</svg>
+						</a>
+						<a href="" class="social-block__link">
+							<svg width="16" height="15" viewBox="0 0 16 15" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+								<path d="M4.62663 3.12563C4.62645 3.45715 4.48581 3.77502 4.23563 4.00933C3.98546 4.24363 3.64625 4.37517 3.29263 4.375C2.93901 4.37483 2.59994 4.24298 2.35001 4.00844C2.10009 3.7739 1.95978 3.4559 1.95996 3.12438C1.96014 2.79285 2.10078 2.47498 2.35096 2.24067C2.60113 2.00637 2.94034 1.87483 3.29396 1.875C3.64758 1.87517 3.98665 2.00702 4.23657 2.24156C4.4865 2.4761 4.6268 2.7941 4.62663 3.12563ZM4.66663 5.30062H1.99996V13.1256H4.66663V5.30062ZM8.87996 5.30062H6.22663V13.1256H8.85329V9.01938C8.85329 6.73188 12.0333 6.51938 12.0333 9.01938V13.1256H14.6666V8.16938C14.6666 4.31313 9.95996 4.45688 8.85329 6.35063L8.87996 5.30062Z" />
+							</svg>
+						</a>
+						<a href="" class="social-block__link">
+							<svg width="19" height="17" viewBox="0 0 19 17" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+								<g>
+									<path d="M7.97324 10.829L7.69203 14.7844C8.09436 14.7844 8.26861 14.6115 8.47757 14.404L10.3639 12.6013L14.2724 15.4636C14.9893 15.8631 15.4943 15.6528 15.6877 14.8042L18.2533 2.78235L18.254 2.78164C18.4814 1.72197 17.8708 1.3076 17.1724 1.56756L2.09194 7.34118C1.06274 7.74068 1.07832 8.31443 1.91699 8.57439L5.77244 9.7736L14.7279 4.16998C15.1494 3.89089 15.5326 4.04531 15.2174 4.32439L7.97324 10.829Z" />
+								</g>
+							</svg>
+						</a>
+					</div>
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu">
+							<svg width="23" height="23" viewBox="0 0 23 23" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+								<rect x="0.802734" y="0.477539" width="4.73242" height="4.73242" />
+								<rect x="9.53516" y="0.477539" width="4.73242" height="4.73242" />
+								<rect x="18.2676" y="0.477539" width="4.73242" height="4.73242" />
+								<rect x="0.802734" y="9.20996" width="4.73242" height="4.73242" />
+								<rect x="9.53516" y="9.20996" width="4.73242" height="4.73242" />
+								<rect x="18.2676" y="9.20996" width="4.73242" height="4.73242" />
+								<rect x="0.802734" y="17.9424" width="4.73242" height="4.73242" />
+								<rect x="9.53516" y="17.9424" width="4.73242" height="4.73242" />
+								<rect x="18.2676" y="17.9424" width="4.73242" height="4.73242" />
+							</svg>
+						</button>
+						<nav class="menu__body">
+							<button type="button" class="menu__close icon-menu">
+								<svg width="23" height="22" viewBox="0 0 23 22" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M1.7605 20.3342L20.4297 1.66504M20.4297 20.3342L1.7605 1.66504" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+							</button>
+							<div class="menu__inner">
+								<div class="menu__content">
+									<a data-da=".menu__inner, 649.98, 0" href="" class="menu__logo">
+										<img src="img/logo.svg" alt="logo cybermedia">
+									</a>
+									<div class="menu__contacts">
+										<div class="menu__email-block">
+											<div class="menu__email-label">
+												EMAIL
+											</div>
+											<a href="mailto:CYBERMEDIA@gmail.com" class="menu__email">CYBERMEDIA@gmail.com</a>
+										</div>
+										<div class="menu__phones">
+											<div class="menu__label">
+												Телефон
+											</div>
+											<a href="tel:380633950279" class="menu__phone">+38063 395 02 79</a>
+											<a href="tel:380633950279" class="menu__phone">+38063 395 02 79</a>
+										</div>
+										<div class="menu__social">
+											<div class="menu__label">
+												Ви можете зв'язатися з <br> нами також у соцмережах
+											</div>
+											<div class="menu__social-list social-block">
+												<a href="" class="social-block__link">
+													<svg width="14" height="15" viewBox="0 0 14 15" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M4.25351 0.777344H9.35244C11.6988 0.777344 13.6016 2.6801 13.6016 5.02646V10.1254C13.6016 12.4717 11.6988 14.3745 9.35244 14.3745H4.25351C1.90715 14.3745 0.00439453 12.4717 0.00439453 10.1254V5.02646C0.00439453 2.6801 1.90715 0.777344 4.25351 0.777344ZM9.35231 13.0999C10.9925 13.0999 12.3267 11.7657 12.3267 10.1255V5.0266C12.3267 3.38645 10.9925 2.05222 9.35231 2.05222H4.25338C2.61322 2.05222 1.279 3.38645 1.279 5.0266V10.1255C1.279 11.7657 2.61322 13.0999 4.25338 13.0999H9.35231Z" />
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M3.40332 7.57605C3.40332 5.69879 4.92535 4.17676 6.80261 4.17676C8.67987 4.17676 10.2019 5.69879 10.2019 7.57605C10.2019 9.4533 8.67987 10.9753 6.80261 10.9753C4.92535 10.9753 3.40332 9.4533 3.40332 7.57605ZM4.67792 7.57619C4.67792 8.74725 5.63142 9.70075 6.80248 9.70075C7.97354 9.70075 8.92704 8.74725 8.92704 7.57619C8.92704 6.40429 7.97354 5.45164 6.80248 5.45164C5.63142 5.45164 4.67792 6.40429 4.67792 7.57619Z" />
+														<path d="M10.4569 4.37466C10.707 4.37466 10.9098 4.17187 10.9098 3.92171C10.9098 3.67155 10.707 3.46875 10.4569 3.46875C10.2067 3.46875 10.0039 3.67155 10.0039 3.92171C10.0039 4.17187 10.2067 4.37466 10.4569 4.37466Z" />
+													</svg>
+												</a>
+												<a href="" class="social-block__link">
+													<svg width="16" height="15" viewBox="0 0 16 15" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+														<path d="M4.62663 3.12563C4.62645 3.45715 4.48581 3.77502 4.23563 4.00933C3.98546 4.24363 3.64625 4.37517 3.29263 4.375C2.93901 4.37483 2.59994 4.24298 2.35001 4.00844C2.10009 3.7739 1.95978 3.4559 1.95996 3.12438C1.96014 2.79285 2.10078 2.47498 2.35096 2.24067C2.60113 2.00637 2.94034 1.87483 3.29396 1.875C3.64758 1.87517 3.98665 2.00702 4.23657 2.24156C4.4865 2.4761 4.6268 2.7941 4.62663 3.12563ZM4.66663 5.30062H1.99996V13.1256H4.66663V5.30062ZM8.87996 5.30062H6.22663V13.1256H8.85329V9.01938C8.85329 6.73188 12.0333 6.51938 12.0333 9.01938V13.1256H14.6666V8.16938C14.6666 4.31313 9.95996 4.45688 8.85329 6.35063L8.87996 5.30062Z" />
+													</svg>
+												</a>
+												<a href="" class="social-block__link">
+													<svg width="19" height="17" viewBox="0 0 19 17" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+														<g>
+															<path d="M7.97324 10.829L7.69203 14.7844C8.09436 14.7844 8.26861 14.6115 8.47757 14.404L10.3639 12.6013L14.2724 15.4636C14.9893 15.8631 15.4943 15.6528 15.6877 14.8042L18.2533 2.78235L18.254 2.78164C18.4814 1.72197 17.8708 1.3076 17.1724 1.56756L2.09194 7.34118C1.06274 7.74068 1.07832 8.31443 1.91699 8.57439L5.77244 9.7736L14.7279 4.16998C15.1494 3.89089 15.5326 4.04531 15.2174 4.32439L7.97324 10.829Z" />
+														</g>
+													</svg>
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="menu__copy">
+										©2024. CyberMedia. Всі права захищені
+									</div>
+								</div>
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="#aboutus" class="menu__link">Про нас</a>
+									</li>
+									<li class="menu__item">
+										<a href="#services" class="menu__link">Послуги</a>
+									</li>
+									<li class="menu__item">
+										<a href="#portfolio" class="menu__link">Портфоліо</a>
+									</li>
+									<li class="menu__item">
+										<a href="#blog" class="menu__link">Блог</a>
+									</li>
+									<li class="menu__item">
+										<a href="#footer" class="menu__link">Контакти</a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>
+				<div class="header__bottom">
+					<div class="header__lang languages">
+						<a href="" class="languages__link active">
+							Укр
+						</a>
+						<a href="" class="languages__link">
+							Eng
+						</a>
+						<a href="" class="languages__link">
+							Рус
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="blog-article">
+				<div class="blog-article__breadcrumbs breadcrumbs">
+					<div class="breadcrumbs__container">
+						<div class="breadcrumbs__body">
+							<a href="" class="breadcrumbs__link">
+								Головна
+							</a>
+							<a href="" class="breadcrumbs__link">
+								Наш блог
+							</a>
+							<a href="" class="breadcrumbs__link">
+								Ідеї та Інсайти
+							</a>
+							<a href="" class="breadcrumbs__link active">
+								UX/UI та web дизайн
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="blog-article__container">
+					<div class="blog-article__top section-top">
+						<h4 class="section-top__title">
+							Наш блог
+						</h4>
+					</div>
+					<div class="blog-article__head">
+						<h2 class="blog-article__title title">
+							UX/UI та web дизайн
+						</h2>
+						<div class="blog-article__date">
+							Листопад 07, 2024
+						</div>
+					</div>
+					<div class="blog-article__body">
+						<img src="img/blog/image-big.webp" alt="Image">
+						<div class="blog-article__content">
+							<div class="blog-article__text">
+								<h4>
+									1914 translation by H. Rackham
+								</h4>
+								<p>
+									"But I must explain to you how all this mistaken idea of denouncing pleasure and
+									praising pain was born and I will give you a complete account of the system, and
+									expound the actual teachings of the great explorer of the truth, the master-builder
+									of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it
+									is pleasure, but because those who do not know how to pursue pleasure rationally
+									encounter consequences that are extremely painful. Nor again is there anyone who
+									loves or pursues or desires to obtain pain of itself, because it is pain, but
+									because occasionally circumstances occur in which toil and pain can procure him some
+									great pleasure. To take a trivial example, which of us ever undertakes laborious
+									physical exercise, except to obtain some advantage from it? But who has any right to
+									find fault with a man who chooses to enjoy a pleasure that has no annoying
+									consequences, or one who avoids a pain that produces no resultant pleasure?"
+								</p>
+							</div>
+							<div class="blog-article__text">
+								<h4>
+									1914 translation by H. Rackham
+								</h4>
+								<p>
+									"But I must explain to you how all this mistaken idea of denouncing pleasure and
+									praising pain was born and I will give you a complete account of the system, and
+									expound the actual teachings of the great explorer of the truth, the master-builder
+									of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it
+									is pleasure, but because those who do not know how to pursue pleasure rationally
+									encounter consequences that are extremely painful. Nor again is there anyone who
+									loves or pursues or desires to obtain pain of itself, because it is pain, but
+									because occasionally circumstances occur in which toil and pain can procure him some
+									great pleasure. To take a trivial example, which of us ever undertakes laborious
+									physical exercise, except to obtain some advantage from it? But who has any right to
+									find fault with a man who chooses to enjoy a pleasure that has no annoying
+									consequences, or one who avoids a pain that produces no resultant pleasure?"
+								</p>
+							</div>
+						</div>
+						<div class="blog-article__nav">
+							<a href="" class="blog-article__prev">
+								<svg width="18" height="14" viewBox="0 0 18 14" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M16.5 7.19336L1.5 7.19336M1.5 7.19336L7.125 1.19336M1.5 7.19336L7.125 13.1934" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+								<span>попередня</span>
+							</a>
+							<a href="" class="blog-article__next">
+								<span>наступна</span>
+								<svg width="18" height="14" viewBox="0 0 18 14" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M1.5 7.19336L16.5 7.19336M16.5 7.19336L10.875 1.19336M16.5 7.19336L10.875 13.1934" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="clients">
+				<div class="clients__container">
+					<div class="clients__top section-top">
+						<h4 class="section-top__title">
+							Наші клієнти
+						</h4>
+					</div>
+					<div class="clients__items">
+						<div class="clients__item">
+							<img src="img/frontex.webp" alt="Image">
+						</div>
+						<div class="clients__item">
+							<img src="img/frontex.webp" alt="Image">
+						</div>
+						<div class="clients__item">
+							<img src="img/frontex.webp" alt="Image">
+						</div>
+						<div class="clients__item">
+							<img src="img/frontex.webp" alt="Image">
+						</div>
+						<div class="clients__item">
+							<img src="img/frontex.webp" alt="Image">
+						</div>
+						<div class="clients__item">
+							<img src="img/frontex.webp" alt="Image">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="why-site">
+				<div id="contacts" class="why-site__contacts">
+					<div class="why-site__container">
+						<div class="why-site__info">
+							<h2 class="why-site__title title">
+								Готові зробити крок до свого ідеального сайту?
+							</h2>
+							<div class="why-site__text">
+								Заповніть форму, і ми зв'яжемося з вами для обговорення деталей!
+							</div>
+							<img class="why-site__decor" src="img/envelope.webp" alt="Image">
+						</div>
+						<form action="#" class="why-site__form">
+							<input autocomplete="off" type="text" name="name" placeholder="Ваше ім'я" class="why-site__input input">
+							<input autocomplete="off" type="text" name="phone" placeholder="Ваш телефон" class="why-site__input input">
+							<input autocomplete="off" type="text" name="email" placeholder="Ваш email" class="why-site__input input">
+							<button type="submit" class="why-site__btn button">
+								<span>Надіслати заявку</span>
+								<div class="button__circle">
+									<svg width="15" height="12" viewBox="0 0 15 12" fill="currentCOlor" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M13.9249 2.36928C14.1019 2.41237 14.2546 2.52397 14.3494 2.67955C14.4442 2.83514 14.4734 3.02199 14.4305 3.19907L12.5956 10.758C12.577 10.8484 12.5403 10.9342 12.4879 11.0101C12.4354 11.0861 12.3682 11.1507 12.2902 11.2002C12.2122 11.2496 12.1251 11.2828 12.034 11.2978C11.9429 11.3128 11.8497 11.3093 11.76 11.2876C11.6702 11.2658 11.5858 11.2262 11.5117 11.171C11.4377 11.1159 11.3754 11.0465 11.3288 10.9668C11.2822 10.8871 11.252 10.7988 11.2403 10.7073C11.2285 10.6157 11.2352 10.5227 11.2602 10.4338L12.7037 4.48746L1.59543 11.256C1.43971 11.3509 1.25269 11.38 1.07549 11.337C0.898294 11.294 0.745444 11.1824 0.650564 11.0266C0.555684 10.8709 0.526546 10.6839 0.569562 10.5067C0.612576 10.3295 0.724221 10.1767 0.879934 10.0818L11.9882 3.31323L6.04184 1.86972C5.95141 1.85112 5.86564 1.81449 5.78967 1.76203C5.7137 1.70956 5.64907 1.64233 5.59965 1.56434C5.55022 1.48636 5.51701 1.39922 5.50199 1.30812C5.48697 1.21702 5.49046 1.12383 5.51224 1.03411C5.53402 0.944384 5.57365 0.859968 5.62876 0.785893C5.68388 0.711819 5.75335 0.649605 5.83303 0.602961C5.91271 0.556317 6.00097 0.526199 6.09254 0.514406C6.18411 0.502612 6.27712 0.509383 6.36602 0.534315L13.9249 2.36928Z" />
+									</svg>
+								</div>
+							</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer id="footer" class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__info">
+						<a href="" class="footer__logo">
+							<img src="img/logo.svg" alt="logo cybermedia">
+						</a>
+						<div class="footer__social social-block">
+							<a href="" class="social-block__link">
+								<svg width="14" height="15" viewBox="0 0 14 15" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M4.25351 0.777344H9.35244C11.6988 0.777344 13.6016 2.6801 13.6016 5.02646V10.1254C13.6016 12.4717 11.6988 14.3745 9.35244 14.3745H4.25351C1.90715 14.3745 0.00439453 12.4717 0.00439453 10.1254V5.02646C0.00439453 2.6801 1.90715 0.777344 4.25351 0.777344ZM9.35231 13.0999C10.9925 13.0999 12.3267 11.7657 12.3267 10.1255V5.0266C12.3267 3.38645 10.9925 2.05222 9.35231 2.05222H4.25338C2.61322 2.05222 1.279 3.38645 1.279 5.0266V10.1255C1.279 11.7657 2.61322 13.0999 4.25338 13.0999H9.35231Z" />
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M3.40332 7.57605C3.40332 5.69879 4.92535 4.17676 6.80261 4.17676C8.67987 4.17676 10.2019 5.69879 10.2019 7.57605C10.2019 9.4533 8.67987 10.9753 6.80261 10.9753C4.92535 10.9753 3.40332 9.4533 3.40332 7.57605ZM4.67792 7.57619C4.67792 8.74725 5.63142 9.70075 6.80248 9.70075C7.97354 9.70075 8.92704 8.74725 8.92704 7.57619C8.92704 6.40429 7.97354 5.45164 6.80248 5.45164C5.63142 5.45164 4.67792 6.40429 4.67792 7.57619Z" />
+									<path d="M10.4569 4.37466C10.707 4.37466 10.9098 4.17187 10.9098 3.92171C10.9098 3.67155 10.707 3.46875 10.4569 3.46875C10.2067 3.46875 10.0039 3.67155 10.0039 3.92171C10.0039 4.17187 10.2067 4.37466 10.4569 4.37466Z" />
+								</svg>
+							</a>
+							<a href="" class="social-block__link">
+								<svg width="16" height="15" viewBox="0 0 16 15" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+									<path d="M4.62663 3.12563C4.62645 3.45715 4.48581 3.77502 4.23563 4.00933C3.98546 4.24363 3.64625 4.37517 3.29263 4.375C2.93901 4.37483 2.59994 4.24298 2.35001 4.00844C2.10009 3.7739 1.95978 3.4559 1.95996 3.12438C1.96014 2.79285 2.10078 2.47498 2.35096 2.24067C2.60113 2.00637 2.94034 1.87483 3.29396 1.875C3.64758 1.87517 3.98665 2.00702 4.23657 2.24156C4.4865 2.4761 4.6268 2.7941 4.62663 3.12563ZM4.66663 5.30062H1.99996V13.1256H4.66663V5.30062ZM8.87996 5.30062H6.22663V13.1256H8.85329V9.01938C8.85329 6.73188 12.0333 6.51938 12.0333 9.01938V13.1256H14.6666V8.16938C14.6666 4.31313 9.95996 4.45688 8.85329 6.35063L8.87996 5.30062Z" />
+								</svg>
+							</a>
+							<a href="" class="social-block__link">
+								<svg width="19" height="17" viewBox="0 0 19 17" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+									<g>
+										<path d="M7.97324 10.829L7.69203 14.7844C8.09436 14.7844 8.26861 14.6115 8.47757 14.404L10.3639 12.6013L14.2724 15.4636C14.9893 15.8631 15.4943 15.6528 15.6877 14.8042L18.2533 2.78235L18.254 2.78164C18.4814 1.72197 17.8708 1.3076 17.1724 1.56756L2.09194 7.34118C1.06274 7.74068 1.07832 8.31443 1.91699 8.57439L5.77244 9.7736L14.7279 4.16998C15.1494 3.89089 15.5326 4.04531 15.2174 4.32439L7.97324 10.829Z" />
+									</g>
+								</svg>
+							</a>
+						</div>
+						<div class="footer__copy">
+							©2024. CyberMedia. <br>
+							Всі права захищені
+						</div>
+					</div>
+					<nav class="footer__menu">
+						<ul class="footer__menu-list">
+							<li class="footer__menu-item">
+								<a href="#aboutus" class="footer__menu-link">
+									Про нас
+								</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="#services" class="footer__menu-link">
+									Послуги
+								</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="#portfolio" class="footer__menu-link">
+									Портфоліо
+								</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="#blog" class="footer__menu-link">
+									Блог
+								</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="#contacts" class="footer__menu-link">
+									Контакти
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="footer__contacts">
+						<h2 class="footer__title title">
+							Напишіть нам
+						</h2>
+						<div class="footer__text">
+							Заповніть форму, і ми зв'яжемося з вами для обговорення деталей!
+						</div>
+						<form action="#" class="footer__form form-block">
+							<div class="form-block__inputs">
+								<input autocomplete="off" type="text" name="name" placeholder="Ваше ім'я" class="form-block__input input">
+								<select name="services">
+									<option value="1" selected>Цікава послуга</option>
+									<option value="2">Цікава послуга №2</option>
+									<option value="3">Цікава послуга №3</option>
+									<option value="4">Цікава послуга №4</option>
+								</select>
+								<input autocomplete="off" type="text" name="phone" placeholder="Ваш телефон" class="form-block__input input">
+								<input autocomplete="off" type="text" name="email" placeholder="Ваш email" class="form-block__input input">
+							</div>
+							<div class="form-block__checkboxes">
+								<label class="checkbox">
+									<input class="checkbox__input" type="checkbox" value="1" name="messenger">
+									<span class="checkbox__fake"></span>
+									<span class="checkbox__text">Whatsapp</span>
+								</label>
+								<label class="checkbox">
+									<input class="checkbox__input" type="checkbox" value="1" name="messenger">
+									<span class="checkbox__fake"></span>
+									<span class="checkbox__text">Telegram</span>
+								</label>
+								<label class="checkbox">
+									<input class="checkbox__input" type="checkbox" value="1" name="messenger">
+									<span class="checkbox__fake"></span>
+									<span class="checkbox__text">Viber</span>
+								</label>
+							</div>
+							<button type="submit" class="form-block__btn button button--empty-green">
+								<span>Надіслати заявку</span>
+								<div class="button__circle">
+									<svg width="15" height="12" viewBox="0 0 15 12" fill="currentCOlor" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M13.9249 2.36928C14.1019 2.41237 14.2546 2.52397 14.3494 2.67955C14.4442 2.83514 14.4734 3.02199 14.4305 3.19907L12.5956 10.758C12.577 10.8484 12.5403 10.9342 12.4879 11.0101C12.4354 11.0861 12.3682 11.1507 12.2902 11.2002C12.2122 11.2496 12.1251 11.2828 12.034 11.2978C11.9429 11.3128 11.8497 11.3093 11.76 11.2876C11.6702 11.2658 11.5858 11.2262 11.5117 11.171C11.4377 11.1159 11.3754 11.0465 11.3288 10.9668C11.2822 10.8871 11.252 10.7988 11.2403 10.7073C11.2285 10.6157 11.2352 10.5227 11.2602 10.4338L12.7037 4.48746L1.59543 11.256C1.43971 11.3509 1.25269 11.38 1.07549 11.337C0.898294 11.294 0.745444 11.1824 0.650564 11.0266C0.555684 10.8709 0.526546 10.6839 0.569562 10.5067C0.612576 10.3295 0.724221 10.1767 0.879934 10.0818L11.9882 3.31323L6.04184 1.86972C5.95141 1.85112 5.86564 1.81449 5.78967 1.76203C5.7137 1.70956 5.64907 1.64233 5.59965 1.56434C5.55022 1.48636 5.51701 1.39922 5.50199 1.30812C5.48697 1.21702 5.49046 1.12383 5.51224 1.03411C5.53402 0.944384 5.57365 0.859968 5.62876 0.785893C5.68388 0.711819 5.75335 0.649605 5.83303 0.602961C5.91271 0.556317 6.00097 0.526199 6.09254 0.514406C6.18411 0.502612 6.27712 0.509383 6.36602 0.534315L13.9249 2.36928Z" />
+									</svg>
+								</div>
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.js"></script>
+</body>
+
+</html>
